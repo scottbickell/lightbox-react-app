@@ -1,0 +1,25 @@
+{
+  "name": "lightbox-react-app",
+  "version": "1.0.0",
+  "description": "A React photo management app",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottbickell/lightbox-react-app.git"
+  },
+  "author": "Scott Bickell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottbickell/lightbox-react-app/issues"
+  },
+  "homepage": "https://github.com/scottbickell/lightbox-react-app#readme",
+  "dependencies": {
+    "formidable": "^1.2.1"
+  }
+}
