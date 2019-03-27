@@ -33,11 +33,11 @@ app.post('/upload', function (req, res) {
         return res.status(400).send('No files were uploaded.');
     }
 
-    // The name of the input field (i.e. "sampleFile") is used to retrieve the uploaded file
-    let sampleFile = req.files.sampleFile;
+    // The name of the input field (i.e. "photoFile") is used to retrieve the uploaded file
+    let photoFile = req.files.photoFile;
 
     // Use the mv() method to place the file somewhere on your server
-    sampleFile.mv('~/Desktop/', function (err) {
+    photoFile.mv('/Users/scottbickell/Desktop/test/' + photoFile.name, function (err) {
         if (err)
             return res.status(500).send(err);
 

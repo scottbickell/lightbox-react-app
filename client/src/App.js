@@ -1,7 +1,10 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import logo from "./logo.svg";
 import "./App.css";
-import Form from './components/Admin';
+import Admin from './components/Admin';
+import Gallery from './components/Gallery';
+
 
 class App extends Component {
   render() {
@@ -14,6 +17,15 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <Router>
+          <div>
+            <Switch>
+              <Route exact path="/" component={Gallery} />
+              <Route exact path="/admin" component={Admin} />
+              <Route exact path="/gallery" component={Gallery} />
+            </Switch>
+          </div>
+        </Router>
       </div>
     );
   }

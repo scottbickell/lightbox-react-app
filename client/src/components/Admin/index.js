@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./admin.css";
+import "./styles.css";
 
 class Form extends Component {
   render() {
@@ -9,11 +9,11 @@ class Form extends Component {
         <form
           ref="uploadForm"
           id="uploadForm"
-          action="http://localhost:8000/upload"
+          action="http://localhost:3000/upload"
           method="post"
           encType="multipart/form-data"
         >
-          <input type="file" name="sampleFile" />
+          <input type="file" name="photoFile" />
           <input type="submit" value="Upload!" />
         </form>
       </div>
