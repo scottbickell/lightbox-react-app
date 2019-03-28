@@ -13,7 +13,7 @@ class Form extends Component {
           method="post"
           encType="multipart/form-data"
         >
-          <input type="file" name="photoFile" />
+          <input type="file" name="photoFile" id="photoFile" />
           <input type="submit" value="Upload!" />
         </form>
       </div>
