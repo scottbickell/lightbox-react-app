@@ -5,7 +5,6 @@ import "./App.css";
 import Admin from './components/Admin';
 import Gallery from './components/Gallery';
 
-
 class App extends Component {
   render() {
     return (

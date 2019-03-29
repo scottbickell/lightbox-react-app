@@ -32,7 +32,36 @@ mongoose.connect(
 // default options
 app.use(fileUpload());
 
-app.post("/upload", function(req, res) {
+app.get(
+  "/example/b",
+  function(req, res) {
+    console.log("the response will be sent by the next function ...");
+    next();
+  },
+  function(req, res) {
+    res.send("Hello from B!");
+  }
+);
+
+// app.post("/upload", (req, res, next) => {
+//   if (Object.keys(req.files).length == 0) {
+//     return res.status(400).send("No files were uploaded.");
+//   }
+
+//   let photoFile = req.files.photoFile;
+
+//     // Use the mv() method to place the file somewhere on your server
+//     photoFile.mv("./client/public/uploads/" + photoFile.name, function(err) {
+//       if (err) return res.status(500).send(err);
+//       // console.log(Object.keys(photoFile));
+//       res.send("File uploaded!");
+
+//     next();
+//   },
+//   (req, res) => console.log("did you get the right data")
+// );
+
+app.post("/upload", (req, res, next) => {
   if (Object.keys(req.files).length == 0) {
     return res.status(400).send("No files were uploaded.");
   }
