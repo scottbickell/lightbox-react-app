@@ -4,27 +4,36 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const PhotoSchema = new Schema({
-    filename: {
-        type: String,
-        trim: true,
-        required: "filename is required"
+    
+    photoFileName: {
+        type: String
     },
 
-    date: {
+    cameraMake: {
+        type: String,
+        default: "Film camera"
+    },
+
+    cameraModel: {
+        type: String
+    },
+
+    photoDate: {
         type: Date,
         default: Date.now
     },
 
-    camera: {
-        type: String
+    photoLatitude: {
+        type: Number
     },
 
-    location: {
+    photoLongitude: {
         type: Number
     },
 
     country: {
-        type: String
+        type: String,
+        default: "USA"
     }
 
 });

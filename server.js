@@ -1,13 +1,12 @@
-const express = require("express");
-const path = require("path");
-const mongoose = require("mongoose");
+const express    = require("express");
+const path       = require("path");
+const mongoose   = require("mongoose");
 const fileUpload = require("express-fileupload");
-// const exifjs = require("exif-js");
-const exif = require("exif-parser");
-const fs = require("fs");
-const PORT = process.env.PORT || 3001;
-const Photo = require("./photoModel");
-const app = express();
+const exif       = require("exif-parser");
+const fs         = require("fs");
+const PORT       = process.env.PORT || 3001;
+const Photo      = require("./photoModel");
+const app        = express();
 
 // Define middleware here
 app.use(
@@ -31,19 +30,8 @@ mongoose.connect(
 // Define API routes here
 
 // upload a photo
-// default options
-app.use(fileUpload());
 
-app.get(
-  "/example/b",
-  function(req, res) {
-    console.log("the response will be sent by the next function ...");
-    next();
-  },
-  function(req, res) {
-    res.send("Hello from B!");
-  }
-);
+app.use(fileUpload());
 
 app.post("/upload", (req, res) => {
   if (Object.keys(req.files).length == 0) {
@@ -62,23 +50,56 @@ app.post("/upload", (req, res) => {
     const parser = exif.create(buffer);
     const result = parser.parse();
 
-    console.log(JSON.stringify(result, null, 2));
+    // console.log(JSON.stringify(result, null, 2));
+
+    // grab the relevant key-value pairs
+
+    // const photoFileName  = photoFile.name;
+    // const cameraMake     = result.tags.Make;
+    // const cameraModel    = result.tags.Model;
+    // const photoDate      = result.tags.GPSDateStamp;
+    // const photoLatitude  = result.tags.GPSLatitude;
+    // const photoLongitude = result.tags.GPSLongitude;
+
+    const data = {
+        photoFileName : photoFile.name,
+        cameraMake    : result.tags.Make,
+        cameraModel   : result.tags.Model,
+        photoDate     : result.tags.GPSDateStamp,
+        photoLatitude : result.tags.GPSLatitude,
+        photoLongitude: result.tags.GPSLongitude
+    }
+
+    // console.log(photoFileName + " " + cameraMake + " " + cameraModel + " " + photoDate + " " + photoLatitude + " " + photoLongitude);
+    console.log(data);
 
     // send the info to the database
 
-    var myPhoto = new Photo(result);
-    myPhoto
-      .save()
-      .then(item => {
-        // res.send("item saved to database");
-        console.log("item saved to db");
+    Photo.create(data)
+      .then(function(dbPhoto) {
+        // If saved successfully, print the new Photo document to the console
+        console.log(dbPhoto);
       })
-      .catch(err => {
-        // res.status(400).send("unable to save to database");
-        console.log("item not saved to db");
+      .catch(function(err) {
+        // If an error occurs, log the error message
+        console.log(err.message);
       });
   });
 });
+
+app.get("/gallery", function(req, res) {
+    // User.find({ admin: true }).where('created_at').gt(monthAgo).exec(function(err, users) {
+    //     if (err) throw err;
+
+    db.Photo.find({})
+    .then(function(dbLightbox) {
+        res.json(dbLightbox);
+        console.log(dbLightbox);
+    })
+    .catch(function(err) {
+        res.json(err);
+    })
+  });
 
 // Send every other request to the React app
 // Define any API routes before this runs
