@@ -6,7 +6,7 @@ class Gallery extends Component {
 
     return (
       <div>
-        <h1>nothing yet</h1>
+        <h2>nothing yet</h2>
       </div>
     );
   }

@@ -28,6 +28,17 @@ mongoose.connect(
 
 // Define API routes here
 
+//CORS handling
+app.use(function (req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Methods", "DELETE, PUT, GET, POST");
+    res.header(
+        "Access-Control-Allow-Headers",
+        "Origin, X-Requested-With, Content-Type, Accept"
+    );
+    next();
+});
+
 // upload a photo
 
 app.use(fileUpload());
@@ -61,43 +72,54 @@ app.post("/upload", (req, res) => {
         // const photoLongitude = result.tags.GPSLongitude;
 
         const data = {
-            photoFileName: photoFile.name,
-            cameraMake: result.tags.Make,
-            cameraModel: result.tags.Model,
-            photoDate: result.tags.GPSDateStamp,
-            photoLatitude: result.tags.GPSLatitude,
+            photoFileName : photoFile.name,
+            cameraMake    : result.tags.Make,
+            cameraModel   : result.tags.Model,
+            photoDate     : result.tags.GPSDateStamp,
+            photoLatitude : result.tags.GPSLatitude,
             photoLongitude: result.tags.GPSLongitude
         }
 
         // console.log(photoFileName + " " + cameraMake + " " + cameraModel + " " + photoDate + " " + photoLatitude + " " + photoLongitude);
         console.log(data);
 
-        // send the info to the database
+        // Send photo info to db
 
         Photo.create(data)
             .then(function (dbPhoto) {
-                // If saved successfully, print the new Photo document to the console
                 console.log(dbPhoto);
             })
             .catch(function (err) {
-                // If an error occurs, log the error message
                 console.log(err.message);
             });
     });
 });
 
-app.get("/test", (req, res) => {
+// find all the photo entries in mongo
 
-    // console.log("photos route");
-    Photo.find({})
-    .then(function(dbLightbox) {
-        res.json(dbLightbox);
-        console.log(dbLightbox);
-    })
-    .catch(function(err) {
-        res.json(err);
-    })
+app.get("/api", function (req, res) {
+    Photo.find({}, function (error, found) {
+        if (error) {
+            console.log(error);
+        }
+        else {
+            res.json(found);
+        }
+    });
 });
+
+// app.get("/get-data", (req, res) => {
+
+//     console.log("you've hit the /get-data route");
+//     Photo.find({})
+//         .then(function (dbLightbox) {
+//             res.json(dbLightbox);
+//             console.log(dbLightbox);
+//         })
+//         .catch(function (err) {
+//             res.json(err);
+//         })
+// });
 
 // Send every other request to the React app
 // Define any API routes before this runs

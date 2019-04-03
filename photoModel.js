@@ -15,20 +15,23 @@ const PhotoSchema = new Schema({
     },
 
     cameraModel: {
-        type: String
+        type: String,
+        default: "Medium format camera"
     },
 
     photoDate: {
         type: Date,
         default: Date.now
     },
-
+// default to my house
     photoLatitude: {
-        type: Number
+        type: Number,
+        default: 39.5590123
     },
 
     photoLongitude: {
-        type: Number
+        type: Number,
+        default: -104.9352024
     },
 
     country: {
