@@ -5,6 +5,22 @@ import Admin from './components/pages/Admin';
 import Gallery from './components/pages/Gallery';
 
 class App extends Component {
+  getdata = (event) => {
+    event.preventDefault()
+    // console.log("getdata function did fire");
+    fetch("http://localhost:3000/test", {
+      method: "GET"
+      // headers: {
+      //   Accept: "application/json",
+      //   "Access-Control-Allow-Origin": "*",
+      //   "Content-Type": "application/json"
+      // }
+    })
+    .then(response => response.json())
+    .then(res => console.log("response", res));
+  }
+
+
   render() {
     return (
       <div className="container">
@@ -14,7 +30,8 @@ class App extends Component {
         </div>
         <div className="col-md-6 text-right">
             <a href="/admin" className="btn btn-secondary mr-3">Admin</a>
-            <a href="/gallery" className="btn btn-secondary">Gallery</a>
+            <a href="/gallery" className="btn btn-secondary mr-3">Gallery</a>
+            <a href="/test" className="btn btn-secondary" onClick = {(event)=> this.getdata(event)} >test</a>
           </div>
       </div>
         <Router>

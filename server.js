@@ -86,17 +86,10 @@ app.post("/upload", (req, res) => {
     });
 });
 
-app.get("/photos/", function (req, res) {
+app.get("/test", (req, res) => {
 
-    // executes, name LIKE john and only selecting the "name" and "friends" fields
-    // MyModel.find({name: /john/i}, 'name friends', function (err, docs) {})
-
-
-    // Photo.find({photoDate: /2015-01-01T11:23:00.000Z/i}, function (err, docs) {});
-
-    // Photo.find().then(Photo => res.json(Photo));
-
-    Photo.find({ photoDate: /2015-01-01T11:23:00.000Z/i })
+    // console.log("photos route");
+    Photo.find({})
     .then(function(dbLightbox) {
         res.json(dbLightbox);
         console.log(dbLightbox);
