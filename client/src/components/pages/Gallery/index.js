@@ -5,9 +5,9 @@ class Gallery extends Component {
   render() {
 
     return (
-      <div>
-        <h2>nothing yet</h2>
-      </div>
+        <div>
+            <h1>Gallery</h1>
+        </div>
     );
   }
 }
