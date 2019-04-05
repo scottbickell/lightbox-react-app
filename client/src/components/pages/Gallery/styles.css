@@ -1,0 +1,10 @@
+.photo {
+  max-height: 350px;
+}
+
+.photo-container {
+  width:180px;
+  height:180px;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
