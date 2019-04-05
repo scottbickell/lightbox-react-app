@@ -1,9 +1,11 @@
 import React, { Component } from "react";
+// import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Admin from './components/pages/Admin';
 import Gallery from './components/pages/Gallery';
-
+import Test from './components/Test';
+// import photoData from './photoData';
 
 class App extends Component {
     //   getData = (event) => {
@@ -13,7 +15,6 @@ class App extends Component {
     //     .then(response => response.json())
     //     .then(res => console.log("response", res));
     //   }
-
 
     render() {
         return (
@@ -35,6 +36,7 @@ class App extends Component {
                             <Route exact path="/" component={Gallery} />
                             <Route exact path="/admin" component={Admin} />
                             <Route exact path="/gallery" component={Gallery} />
+                            <Route exact path="/test" component={Test} />
                         </Switch>
                     </div>
                 </Router>

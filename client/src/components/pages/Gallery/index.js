@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import "./styles.css";
 
 class Gallery extends Component {
@@ -6,7 +7,7 @@ class Gallery extends Component {
 
     return (
         <div>
-            <h1>Gallery</h1>
+          <h1>Gallery</h1>
         </div>
     );
   }

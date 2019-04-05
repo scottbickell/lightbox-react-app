@@ -76,6 +76,10 @@ app.post("/upload", (req, res) => {
 
 // find all the photo entries in mongo
 
+app.get("test", function (req, res) {
+  console.log("I'm in the test route");
+});
+
 app.get("/api", function (req, res) {
     Photo.find({}, function (error, found) {
         if (error) {
