@@ -1,10 +1,26 @@
-.photo {
-  max-height: 350px;
+img {
+  width: 330px;
+  height: 330px;
 }
 
 .photo-container {
-  width:180px;
-  height:180px;
-  background-repeat:no-repeat;
-  background-size:cover;
+  width: 330px;
+  height: 330px;
+  background: #000000;
+  float: left;
+  margin: 0 55px 55px 0;
+}
+
+.photo-container:nth-child(3n + 2) {
+  margin-right: 0;
+
+}
+
+.photo-container .photo {
+  object-fit: contain;
+}
+
+h2 {
+    color: #666666;
+    margin: 0 0 1.4rem 0;
 }

@@ -1,313 +1,349 @@
 [
-  {
-    "_id": "5ca520753f1a25077d7353a9",
-    "cameraMake": "Nikon",
-    "cameraModel": "Nikon SUPER COOLSCAN 8000 ED",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "00-2005-11-Enderby-Island-New-Zealand-12.jpg",
-    "photoDate": "2019-04-03T21:07:01.701Z",
-    "__v": 0
-  },
+{
+    "_id" : "5ca7b9f37219bf20be091a46",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "01-1995-03-Australia-09.jpg",
+    "photoDate" : "2019-04-05T20:26:27.288Z",
+    "__v" : 0
+},
 
-  {
-    "_id": "5ca521a83f1a25077d7353aa",
-    "cameraMake": "Film camera",
-    "cameraModel": "Medium format camera",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "01-2008-03-Indonesia-24.jpg",
-    "photoDate": "2019-04-03T21:12:08.342Z",
-    "__v": 0
-  },
 
-  {
-    "_id": "5ca5224d3f1a25077d7353ab",
-    "cameraMake": "Film camera",
-    "cameraModel": "Medium format camera",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "02-1995-08-Prague-12.jpg",
-    "photoDate": "2019-04-03T21:14:53.300Z",
-    "__v": 0
-  },
+{
+    "_id" : "5ca7b9fd7219bf20be091a47",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "02-1998-Vashon-Island-Washington-61.jpg",
+    "photoDate" : "2019-04-05T20:26:37.885Z",
+    "__v" : 0
+},
 
-  {
-    "_id": "5ca522553f1a25077d7353ac",
-    "cameraMake": "Film camera",
-    "cameraModel": "Medium format camera",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "03-1995-06-Indonesia-10.jpg",
-    "photoDate": "2019-04-03T21:15:01.208Z",
-    "__v": 0
-  },
 
-  {
-    "_id": "5ca5225c3f1a25077d7353ad",
-    "cameraMake": "Film camera",
-    "cameraModel": "Medium format camera",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "04-2008-03-Indonesia-26.jpg",
-    "photoDate": "2019-04-03T21:15:08.926Z",
-    "__v": 0
-  },
+{
+    "_id" : "5ca7ba057219bf20be091a48",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "03-2000-06-Seattle-07.jpg",
+    "photoDate" : "2019-04-05T20:26:45.033Z",
+    "__v" : 0
+},
 
-  {
-    "_id": "5ca5226a3f1a25077d7353ae",
-    "cameraMake": "Film camera",
-    "cameraModel": "Medium format camera",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "05-1998-Vashon-Island-Washington-61.jpg",
-    "photoDate": "2019-04-03T21:15:22.169Z",
-    "__v": 0
-  },
 
-  {
-    "_id": "5ca522723f1a25077d7353af",
-    "cameraMake": "Film camera",
-    "cameraModel": "Medium format camera",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "06-2004-06-Russian-Far-East-47.jpg",
-    "photoDate": "2019-04-03T21:15:30.912Z",
-    "__v": 0
-  },
+{
+    "_id" : "5ca7ba0d7219bf20be091a49",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "04-1995-08-Prague-12.jpg",
+    "photoDate" : "2019-04-05T20:26:53.659Z",
+    "__v" : 0
+},
 
-  {
-    "_id": "5ca5227a3f1a25077d7353b0",
-    "cameraMake": "Film camera",
-    "cameraModel": "Medium format camera",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "07-1995-06-Indonesia-08.jpg",
-    "photoDate": "2019-04-03T21:15:38.255Z",
-    "__v": 0
-  },
+{
+    "_id" : "5ca7ba177219bf20be091a4a",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "05-1995-06-Indonesia-24.jpg",
+    "photoDate" : "2019-04-05T20:27:03.713Z",
+    "__v" : 0
+},
 
-  {
-    "_id": "5ca522833f1a25077d7353b1",
-    "cameraMake": "Film camera",
-    "cameraModel": "Medium format camera",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "08-1999-Washington-18.jpg",
-    "photoDate": "2019-04-03T21:15:47.113Z",
-    "__v": 0
-  },
 
-  {
-    "_id": "5ca5228b3f1a25077d7353b2",
-    "cameraMake": "Film camera",
-    "cameraModel": "Medium format camera",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "09-2008-10-06-Casablanca-02.jpg",
-    "photoDate": "2019-04-03T21:15:55.642Z",
-    "__v": 0
-  },
+{
+    "_id" : "5ca7ba1f7219bf20be091a4b",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "06-2005-11-Tasmania-17.jpg",
+    "photoDate" : "2019-04-05T20:27:11.996Z",
+    "__v" : 0
+},
 
-  {
-    "_id": "5ca522933f1a25077d7353b3",
-    "cameraMake": "Film camera",
-    "cameraModel": "Medium format camera",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "10-1998-Vashon-Island-Washington-91.jpg",
-    "photoDate": "2019-04-03T21:16:03.463Z",
-    "__v": 0
-  },
 
-  {
-    "_id": "5ca5229b3f1a25077d7353b4",
-    "cameraMake": "Film camera",
-    "cameraModel": "Medium format camera",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "11-1995-06-Indonesia-22.jpg",
-    "photoDate": "2019-04-03T21:16:11.057Z",
-    "__v": 0
-  },
+{
+    "_id" : "5ca7ba297219bf20be091a4c",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "07-2008-03-Indonesia---24.jpg",
+    "photoDate" : "2019-04-05T20:27:21.701Z",
+    "__v" : 0
+},
 
-  {
-    "_id": "5ca522a43f1a25077d7353b5",
-    "cameraMake": "Film camera",
-    "cameraModel": "Medium format camera",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "12-2000-06-Seattle-07.jpg",
-    "photoDate": "2019-04-03T21:16:20.493Z",
-    "__v": 0
-  },
 
-  {
-    "_id": "5ca522ad3f1a25077d7353b6",
-    "cameraMake": "Film camera",
-    "cameraModel": "Medium format camera",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "13-1995-04-Australia-01.jpg",
-    "photoDate": "2019-04-03T21:16:29.272Z",
-    "__v": 0
-  },
+{
+    "_id" : "5ca7ba317219bf20be091a4d",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "08-1995-06-Indonesia-15.jpg",
+    "photoDate" : "2019-04-05T20:27:29.883Z",
+    "__v" : 0
+},
 
-  {
-    "_id": "5ca522b63f1a25077d7353b7",
-    "cameraMake": "Film camera",
-    "cameraModel": "Medium format camera",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "14-2005-11-Tasmania-17.jpg",
-    "photoDate": "2019-04-03T21:16:38.300Z",
-    "__v": 0
-  },
 
-  {
-    "_id": "5ca522bf3f1a25077d7353b8",
-    "cameraMake": "Film camera",
-    "cameraModel": "Medium format camera",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "15-1995-08-Prague-08.jpg",
-    "photoDate": "2019-04-03T21:16:47.806Z",
-    "__v": 0
-  },
+{
+    "_id" : "5ca7ba3a7219bf20be091a4e",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "09-2004-06-Russian-Far-East-47.jpg",
+    "photoDate" : "2019-04-05T20:27:38.302Z",
+    "__v" : 0
+},
 
-  {
-    "_id": "5ca522c73f1a25077d7353b9",
-    "cameraMake": "Film camera",
-    "cameraModel": "Medium format camera",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "16-1995-04-Australia-14.jpg",
-    "photoDate": "2019-04-03T21:16:55.617Z",
-    "__v": 0
-  },
 
-  {
-    "_id": "5ca522cf3f1a25077d7353ba",
-    "cameraMake": "Nikon",
-    "cameraModel": "Nikon SUPER COOLSCAN 8000 ED",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "17-1999-Vashon-Island-Washington-62.jpg",
-    "photoDate": "2019-04-03T21:17:03.682Z",
-    "__v": 0
-  },
+{
+    "_id" : "5ca7ba427219bf20be091a4f",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "10-1995-06-Indonesia-10.jpg",
+    "photoDate" : "2019-04-05T20:27:46.099Z",
+    "__v" : 0
+},
 
-  {
-    "_id": "5ca522d73f1a25077d7353bb",
-    "cameraMake": "Film camera",
-    "cameraModel": "Medium format camera",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "18-1999-04-Seattle-06.jpg",
-    "photoDate": "2019-04-03T21:17:11.453Z",
-    "__v": 0
-  },
 
-  {
-    "_id": "5ca522e03f1a25077d7353bc",
-    "cameraMake": "Film camera",
-    "cameraModel": "Medium format camera",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "19-1995-06-Indonesia-15.jpg",
-    "photoDate": "2019-04-03T21:17:20.002Z",
-    "__v": 0
-  },
+{
+    "_id" : "5ca7ba4a7219bf20be091a50",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "11-1995-06-Indonesia-08.jpg",
+    "photoDate" : "2019-04-05T20:27:54.519Z",
+    "__v" : 0
+},
 
-  {
-    "_id": "5ca522e83f1a25077d7353bd",
-    "cameraMake": "Film camera",
-    "cameraModel": "Medium format camera",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "20-1995-03-Australia-09.jpg",
-    "photoDate": "2019-04-03T21:17:28.261Z",
-    "__v": 0
-  },
 
-  {
-    "_id": "5ca522f03f1a25077d7353be",
-    "cameraMake": "Film camera",
-    "cameraModel": "Medium format camera",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "21-1995-06-Indonesia-24.jpg",
-    "photoDate": "2019-04-03T21:17:36.177Z",
-    "__v": 0
-  },
+{
+    "_id" : "5ca7ba537219bf20be091a51",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "12-1998-Vashon-Island-Washington-91.jpg",
+    "photoDate" : "2019-04-05T20:28:03.322Z",
+    "__v" : 0
+},
 
-  {
-    "_id": "5ca522fa3f1a25077d7353bf",
-    "cameraMake": "Film camera",
-    "cameraModel": "Medium format camera",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "22-2008-03-Indonesia-13.jpg",
-    "photoDate": "2019-04-03T21:17:46.560Z",
-    "__v": 0
-  },
 
-  {
-    "_id": "5ca523023f1a25077d7353c0",
-    "cameraMake": "Film camera",
-    "cameraModel": "Medium format camera",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "23-1999-Washington-19.jpg",
-    "photoDate": "2019-04-03T21:17:54.732Z",
-    "__v": 0
-  },
+{
+    "_id" : "5ca7ba5d7219bf20be091a52",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "13-1995-08-Prague-08.jpg",
+    "photoDate" : "2019-04-05T20:28:13.006Z",
+    "__v" : 0
+},
 
-  {
-    "_id": "5ca523303f1a25077d7353c1",
-    "cameraMake": "Nikon",
-    "cameraModel": "Nikon SUPER COOLSCAN 8000 ED",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "25-2005-11-Enderby-Island-New-Zealand-03.jpg",
-    "photoDate": "2019-04-03T21:18:40.738Z",
-    "__v": 0
-  },
 
-  {
-    "_id": "5ca5233b3f1a25077d7353c2",
-    "cameraMake": "Film camera",
-    "cameraModel": "Medium format camera",
-    "photoLatitude": 39.5590123,
-    "photoLongitude": -104.9352024,
-    "country": "USA",
-    "photoFileName": "26-1995-08-Prague-04.jpg",
-    "photoDate": "2019-04-03T21:18:51.685Z",
-    "__v": 0
-  }
+{
+    "_id" : "5ca7ba667219bf20be091a53",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "14-1999-Washington-19.jpg",
+    "photoDate" : "2019-04-05T20:28:22.072Z",
+    "__v" : 0
+},
+
+{
+    "_id" : "5ca7ba6e7219bf20be091a54",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "15-2008-03-Indonesia---26.jpg",
+    "photoDate" : "2019-04-05T20:28:30.872Z",
+    "__v" : 0
+},
+
+
+{
+    "_id" : "5ca7ba767219bf20be091a55",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "16-1999-Washington-18.jpg",
+    "photoDate" : "2019-04-05T20:28:38.323Z",
+    "__v" : 0
+},
+
+
+{
+    "_id" : "5ca7ba7f7219bf20be091a56",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "17-1995-06-Indonesia-22.jpg",
+    "photoDate" : "2019-04-05T20:28:47.806Z",
+    "__v" : 0
+},
+
+
+{
+    "_id" : "5ca7ba877219bf20be091a57",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "18-1995-04-Australia-14.jpg",
+    "photoDate" : "2019-04-05T20:28:55.107Z",
+    "__v" : 0
+},
+
+
+{
+    "_id" : "5ca7ba8f7219bf20be091a58",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "19-2008-10-06-Casablanca-02.jpg",
+    "photoDate" : "2019-04-05T20:29:03.826Z",
+    "__v" : 0
+},
+
+
+{
+    "_id" : "5ca7ba987219bf20be091a59",
+    "cameraMake" : "Nikon",
+    "cameraModel" : "Nikon SUPER COOLSCAN 8000 ED",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "20-1999-Vashon-Island-Washington-62.jpg",
+    "photoDate" : "2019-04-05T20:29:12.079Z",
+    "__v" : 0
+},
+
+
+{
+    "_id" : "5ca7baa17219bf20be091a5a",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "21-1995-04-Australia-01.jpg",
+    "photoDate" : "2019-04-05T20:29:21.212Z",
+    "__v" : 0
+},
+
+
+{
+    "_id" : "5ca7baa87219bf20be091a5b",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "22-1999-04-Seattle-06.jpg",
+    "photoDate" : "2019-04-05T20:29:28.788Z",
+    "__v" : 0
+},
+
+
+{
+    "_id" : "5ca7bab07219bf20be091a5c",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "23-1998-07-Arches-Nat'l-Park-Utah-04.jpg",
+    "photoDate" : "2019-04-05T20:29:36.916Z",
+    "__v" : 0
+},
+
+
+{
+    "_id" : "5ca7bab97219bf20be091a5d",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "24-2008-03-Indonesia---13.jpg",
+    "photoDate" : "2019-04-05T20:29:45.333Z",
+    "__v" : 0
+},
+
+
+{
+    "_id" : "5ca7bac07219bf20be091a5e",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "25-1995-07-Thailand-09.jpg",
+    "photoDate" : "2019-04-05T20:29:52.818Z",
+    "__v" : 0
+},
+
+
+{
+    "_id" : "5ca7bac97219bf20be091a5f",
+    "cameraMake" : "Nikon",
+    "cameraModel" : "Nikon SUPER COOLSCAN 8000 ED",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "26-2005-11-Enderby-Island-New-Zealand-03.jpg",
+    "photoDate" : "2019-04-05T20:30:01.461Z",
+    "__v" : 0
+},
+
+
+{
+    "_id" : "5ca7bad27219bf20be091a60",
+    "cameraMake" : "Film camera",
+    "cameraModel" : "Medium format camera",
+    "photoLatitude" : 39.5590123,
+    "photoLongitude" : -104.9352024,
+    "country" : "USA",
+    "photoFileName" : "27-1995-08-Prague-04.jpg",
+    "photoDate" : "2019-04-05T20:30:10.535Z",
+    "__v" : 0
+}
 ]

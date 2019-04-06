@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 import data from "../photoData.json";
 
 function Test() {
@@ -13,4 +13,3 @@ function Test() {
   );
 }
 export default Test;
-

@@ -1,48 +1,51 @@
 import React, { Component } from "react";
-// import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
-import Admin from './components/pages/Admin';
-import Gallery from './components/pages/Gallery';
-import Test from './components/Test';
-// import photoData from './photoData';
+import Admin from "./components/pages/Admin";
+import Gallery from "./components/pages/Gallery";
+import Test from "./components/Test";
 
 class App extends Component {
-    //   getData = (event) => {
-    //     event.preventDefault()
-    //     // console.log("getData function did fire");
-    //     fetch("http://localhost:3000/get-data", {method: "GET"})
-    //     .then(response => response.json())
-    //     .then(res => console.log("response", res));
-    //   }
 
-    render() {
-        return (
-            <div className="container">
-                <div className="row mb-4 mt-2">
-                    <div className="col-md-6">
-                        <h1>lightbox</h1>
-                    </div>
-                    <div className="col-md-6 text-right">
-                        <a href="/admin" className="btn btn-secondary mr-3">Admin</a>
-                        <a href="/gallery" className="btn btn-secondary mr-3">Gallery</a>
-                        <a href="http://localhost:3001/api" className="btn btn-secondary">Get Data</a>
-                        {/* <a href="/test" className="btn btn-secondary" onClick = {(event)=> this.getData(event)}>test</a> */}
-                    </div>
-                </div>
-                <Router>
-                    <div>
-                        <Switch>
-                            <Route exact path="/" component={Gallery} />
-                            <Route exact path="/admin" component={Admin} />
-                            <Route exact path="/gallery" component={Gallery} />
-                            <Route exact path="/test" component={Test} />
-                        </Switch>
-                    </div>
-                </Router>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div className="container">
+        <div className="row mt-2">
+          <div className="col-md-6">
+            <h1>photomongo</h1>
+          </div>
+          <div className="col-md-6 text-right mt-1">
+            <a href="/admin" className="btn btn-secondary mr-3">
+              admin
+            </a>
+            <a href="/gallery" className="btn btn-secondary">
+              gallery
+            </a>
+            {/* <a href="http://localhost:3001/api" className="btn btn-secondary ml-3">Get Data</a> */}
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <hr />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <Router>
+              <div>
+                <Switch>
+                  <Route exact path="/" component={Gallery} />
+                  <Route exact path="/admin" component={Admin} />
+                  <Route exact path="/gallery" component={Gallery} />
+                  <Route exact path="/test" component={Test} />
+                </Switch>
+              </div>
+            </Router>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;

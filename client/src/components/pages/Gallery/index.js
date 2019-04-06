@@ -5,16 +5,21 @@ import "./styles.css";
 
 class Gallery extends Component {
   render() {
-
     return (
-        <div>
-          <h2>Gallery</h2>
-          {data.map(d => (
-            // <div style="background-image:url(http://placekitten.com/100/200)"></div>
-            // <div className="photo-container" style="background-image:url("");"></div>
-            <img src={"uploads/" + d.photoFileName} className="photo" />
-          ))}
-        </div>
+      <div>
+        <h2>gallery: film cameras</h2>
+        <p>Medium &amp; large format; pinhole; Holga</p>
+        
+        {data.map(d => (
+          <div className="photo-container" key={d._id}>
+            <img
+              src={"uploads/" + d.photoFileName}
+              className="photo"
+              alt={d.photoFileName}
+            />
+          </div>
+        ))}
+      </div>
     );
   }
 }
